@@ -1,0 +1,38 @@
+/* CSS Reset */
+/*Allows to easily manipulate the sizes and positioning of elements*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 240, 245);
+  font-family: 'Roboto', sans-serif;
+}
+
+#landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+img {
+  height: 500px;
+  width: 300px;
+}
+
+section {
+  width: 400px;
+}
+
+h1,h3 {
+  font-family: 'Kalnia', serif;
+  color: rgb(191, 9, 236);
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
